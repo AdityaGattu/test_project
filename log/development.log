@@ -25267,3 +25267,345 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 4530)
 
 
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:31:32 +0530
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 367)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 88ms (Views: 72.7ms | ActiveRecord: 0.0ms | Allocations: 10089)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:31:35 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2024)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 6061)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:31:39 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"P0efsvnolbjAOpn20pvuWJS/n9zEpIiyl2iNJscJgA3HDnhnq8jpm5cvGpjMBcAFL5krnDw5Z6rHAAtPUPQKdw==", "first_name"=>"", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+Redirected to http://localhost:3000/users/new
+Completed 200 OK in 35ms (ActiveRecord: 5.6ms | Allocations: 10928)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:31:39 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1540)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 4964)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:31:40 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"TmRbw6fWcDrpeSVE/IihBVhxVsYdIPNqkSiXPOA58ze2LbwW9fYMGb5spiriFo9Y41fihuW9HHLBQBFVd8R5TQ==", "first_name"=>"", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+Redirected to http://localhost:3000/users/new
+Completed 200 OK in 10ms (ActiveRecord: 0.0ms | Allocations: 2234)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:31:40 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1541)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4967)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:31:42 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3537)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:31:43 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1294)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 5319)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:31:55 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 30.9ms | Allocations: 1548)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 4958)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:31:59 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 4527)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:56:31 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4531)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:57:42 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 5859)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:59:25 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms | Allocations: 23021)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:01:34 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms | Allocations: 16412)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:01:57 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 16808)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:02:07 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.0ms | Allocations: 17169)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:02:43 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms | Allocations: 15084)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:03:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 83ms (Views: 79.7ms | ActiveRecord: 0.0ms | Allocations: 16389)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:03:38 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 5005)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:05:36 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms | Allocations: 16844)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:06:02 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms | Allocations: 15924)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:06:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 35.8ms | Allocations: 5814)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms | Allocations: 6983)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:06:57 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1076)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1494)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="layer">
+  <div class="signup-form">
+    <h1>Sign in</h1>
+    <section class="NewUser">
+      <%= form_with url: sessions_path do |form| %>
+      <div class="Form-section">
+        <%= form.email_field :email,placeholder: "email",class: "Form-input" %>
+        <%= form.password_field :password_digest,placeholder: "password",class: "Form-input" %>
+        <%= form.submit "Sign in!",class:  %>
+        <% end %>
+    </section>
+  </div>
+</div>
+
+):
+1:    <div class="layer">
+2:      <div class="signup-form">
+3:        <h1>Sign in</h1>
+4:        <section class="NewUser">
+5:          <%= form_with url: sessions_path do |form| %>
+6:          <div class="Form-section">
+7:            <%= form.email_field :email,placeholder: "email",class: "Form-input" %>
+8:            <%= form.password_field :password_digest,placeholder: "password",class: "Form-input" %>
+9:            <%= form.submit "Sign in!",class:  %>
+10:            <% end %>
+11:        </section>
+12:      </div>
+13:    </div>
+  
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:07:13 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1085)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 2263)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="layer">
+  <div class="signup-form">
+    <h1>Sign in</h1>
+    <section class="NewUser">
+      <%= form_with url: sessions_path do |form| %>
+      <div class="Form-section">
+        <%= form.email_field :email,placeholder: "email",class: "Form-input" %>
+        <%= form.password_field :password_digest,placeholder: "password",class: "Form-input" %>
+        <%= form.submit "Sign in!", %>
+        <% end %>
+    </section>
+  </div>
+</div>
+
+):
+1:    <div class="layer">
+2:      <div class="signup-form">
+3:        <h1>Sign in</h1>
+4:        <section class="NewUser">
+5:          <%= form_with url: sessions_path do |form| %>
+6:          <div class="Form-section">
+7:            <%= form.email_field :email,placeholder: "email",class: "Form-input" %>
+8:            <%= form.password_field :password_digest,placeholder: "password",class: "Form-input" %>
+9:            <%= form.submit "Sign in!", %>
+10:            <% end %>
+11:        </section>
+12:      </div>
+13:    </div>
+  
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:9: syntax error, unexpected ')'
+app/views/sessions/new.html.erb:10: syntax error, unexpected end, expecting ')'
+app/views/sessions/new.html.erb:16: syntax error, unexpected end, expecting ')'
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:07:21 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 5871)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:07:51 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 5859)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:10:43 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"guh6eqp3ihWEEVh7SaRGEk2Sgg2XasFk2/G29FIwYMBvPs/JwCeJ92xFF/ChLqgkc+u7FaOeS8G/tGi7oSetUQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 19ms (ActiveRecord: 1.0ms | Allocations: 3612)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:10:43 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 15549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:10:43 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4555)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:10:47 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"aOdxadXlQD2FGjq30LwP0wAXmdCRrQnXgZS1biEdXiSFMcTav7VD321OdTw4NuHlPm6gyKVZg3Ll0Wsh0gqTtQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 1.2ms | Allocations: 927)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:10:47 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4547)
+
+
