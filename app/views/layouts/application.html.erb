@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TodoManager</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <%if @current_user%>
+      <p class = UserHeader>
+        Hello
+        <%= @current_user.first_name %>
+        <%= link_to "sign-out",destroy_session_path,method: "delete"%>
+      </p>
+    <% end %>
+
+    <% if flash[:error] %>
+      <p class=Flash-error>
+        <%= flash[:error] %>
+      </p>
+    <% end %>
+
+    <% if flash[:success] %>
+      <p class=Flash-success>
+        <%= flash[:success] %>
+      </p>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>
