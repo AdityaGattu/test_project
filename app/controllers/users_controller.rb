@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   end
 
   def new
-   # render "users/new"
+    # render "users/new"
   end
 
   def create
@@ -14,7 +14,7 @@ class UsersController < ApplicationController
     if user.save
       session[:current_user_id] = user.id
       flash[:success] = "Signed up sucessfully! You are logged in automatically"
-      redirect_to "/"
+      redirect_to ""
     else
       flash[:error] = user.errors.full_messages.join(", ")
       redirect_to new_user_path
@@ -24,5 +24,4 @@ class UsersController < ApplicationController
   def check
     render plain: User.check(params)
   end
-
 end

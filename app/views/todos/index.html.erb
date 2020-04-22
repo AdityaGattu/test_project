@@ -1,3 +1,12 @@
+ <div class="header">
+    <p class="logo">Caffeteria Management</p>
+    <div class="header-right">
+      <p class="nav-text"><%= link_to "Signup", new_user_path,{:style=>'color:#FFFFFF;', :class => "css_class"}%></p>
+      <p class="nav-text"><%= link_to "Signin", new_sessions_path ,{:style=>'color:#FFFFFF;', :class => "css_class"} %></p>
+      <p class="nav-text"><%= link_to "Signout", new_sessions_path ,{:style=>'color:#FFFFFF;', :class => "css_class"} %></p>
+    </div>
+  </div>
+
 <main class="MyTodoMain">
   <article>
     <h1 class="MyTodo-title">My To-do List</h1>
