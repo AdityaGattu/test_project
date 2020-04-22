@@ -1,21 +1,13 @@
-  <div class="layer">
-    <div class="signup-form">
-<h1>Sign in!</h1>
-<section class="NewUser">
-  <%= form_with url: sessions_path do |form| %>
-    <div class="txtb">
-      <input type="email" placeholder="Email" class="txtb">
-      <%= form.email_field :email,class: "txtb" ,autofocus: "autofocus" %>
-    </div>
-
-    <div class="txtb">
-      <p class=FormInput-label>Password</p>
-      <%= form.password_field :password_digest,class: "txtb" %>
-    </div>
-    <div class="signup-btn">
-      <%= form.submit "Sign in!",class: "signup-btn" %>
-    </div>
-  <% end %>
-</section>
-</div>
+<div class="layer">
+  <div class="signup-form">
+    <h1>Sign in</h1>
+    <section class="NewUser">
+      <%= form_with url: sessions_path do |form| %>
+      <div class="Form-section">
+        <%= form.email_field :email,placeholder: "email",class: "Form-input" %>
+        <%= form.password_field :password_digest,placeholder: "password",class: "Form-input" %>
+        <%= form.submit "Sign in!",class: "signup-btn" %>
+        <% end %>
+    </section>
+  </div>
 </div>

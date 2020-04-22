@@ -24715,3 +24715,555 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 37ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 6306)
 
 
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:17:35 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 367)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 100ms (Views: 93.5ms | ActiveRecord: 0.0ms | Allocations: 23092)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:17:38 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2019)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 6056)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:17:53 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"VEIS1iXvf9j5IqZcISfSa2lgHFX4Mqq83yp7pdjrRrOsC/UDd88D+643JTI/ufw20kaoFQCvRaSPQv3MTxbMyQ==", "first_name"=>"aditya", "email"=>"adi@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "aditya"], ["email", "adi@gmail.com"], ["password_digest", "$2a$12$BCzsdXr2XG/2dZIehXcIFOjUsiVyojUfIlYYqAU0WA/gcQekoZEXG"], ["created_at", "2020-04-22 14:47:54.152831"], ["updated_at", "2020-04-22 14:47:54.152831"]]
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[35m (48.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 381ms (ActiveRecord: 54.4ms | Allocations: 10328)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:17:54 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 9ms (ActiveRecord: 0.6ms | Allocations: 1329)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 20:17:54 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 8], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 8]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 8]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 10.3ms | Allocations: 2512)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 8], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 8]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 8]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 8.0ms | Allocations: 1955)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 8], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 8]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 8]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.1ms | Allocations: 1955)
+  Rendered todos/index.html.erb within layouts/application (Duration: 32.9ms | Allocations: 8401)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 35.6ms | ActiveRecord: 6.0ms | Allocations: 15534)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 20:17:58 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NDWY00rhdASxOEgCHFt/m3yTV0vh1ZWvKmuooi9dh/rZ4y1gILF35llsB4n00ZGtQupuU9UhHwpOLnbt3EpKaw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 346)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:17:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3542)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:18:01 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1335)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 5307)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:19:24 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 5851)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:19:37 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"0um4PglKIoDBajL9w/mzggKKNHWQXBWDAnpFmzRk3Lw/Pw2NYxohYik+fXYrc120PPMNbaSonyZmP5vUx3MRLQ==", "email"=>"gattuaditya@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+Redirected to http://localhost:3000/users/new
+Completed 200 OK in 377ms (ActiveRecord: 0.0ms | Allocations: 2634)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:19:37 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1768)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 5754)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:19:52 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"QJ4TzXn+2U7/qoZwuRjd6gwobrls8TTq0GA3wwohap641/QYK96lbai/BR6nhvO3tw7a+ZRs2/KACLGqndzg5A==", "first_name"=>"ad", "email"=>"asd@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "ad"], ["email", "asd@gmail.com"], ["password_digest", "$2a$12$1v/sxPynTvcgFjdEem9OMOGojz/d98Z7gCxMdzG.E4CAyqHtNWIgm"], ["created_at", "2020-04-22 14:49:52.959882"], ["updated_at", "2020-04-22 14:49:52.959882"]]
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[35m (48.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 448ms (ActiveRecord: 49.1ms | Allocations: 2644)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:19:53 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 5ms (ActiveRecord: 0.8ms | Allocations: 842)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 20:19:53 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 9], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 9]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 9]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 13.2ms | Allocations: 2394)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 9], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 9]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 9]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.9ms | Allocations: 1954)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 9], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 9]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 9]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 5.6ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 29.7ms | Allocations: 7378)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 37.2ms | ActiveRecord: 6.4ms | Allocations: 12071)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 20:19:56 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"npKl8bS136ADDTf18kDRyLZI6fd4Vk+Fo0LM5ixRay9zRBBC3uXcQutZeH4ayj/+iDHQ70yixSDHBxKp30amvg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:19:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 4261)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:19:59 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1548)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 4955)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:20:04 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:20:09 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"Y8cuPKw5WUK38CHAFAS6uItPc+tTnigZWJzWW9vb7Gybjsnp/hklYeDloq4KmpTlMGnHq6sDxwEI9FAyTCZmFg==", "email"=>"aaaa@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+Redirected to http://localhost:3000/users/new
+Completed 200 OK in 354ms (ActiveRecord: 0.0ms | Allocations: 1424)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:20:09 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1541)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4965)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:20:41 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1767)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 6287)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:20:46 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 4269)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:20:47 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 5302)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 20:20:51 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"zMpfPDr4bz2A/GZOCKis2YuYT6G7FXIA2kHrWKzlGKE0g7jpaNgTHtfp5SAWNoKEML774UOInRiKKW0xOxiS2w==", "email"=>"aaaa@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+Redirected to http://localhost:3000/users/new
+Completed 200 OK in 392ms (ActiveRecord: 0.0ms | Allocations: 1424)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 20:20:52 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1547)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4970)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:20:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3537)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:24:06 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1336)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 5861)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 20:24:15 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"OcThgUJ6D1VOMc6+onWRI4AboR3mjL1jISRQm69EKVoKPcVHMkrHyfwCJKGad+haj7MaJdrxFN0g3JXp2QllxQ==", "email"=>"aaaa@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aaaa@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 251ms (ActiveRecord: 0.4ms | Allocations: 1085)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:24:15 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 20:24:15 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 24.9ms | Allocations: 2394)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 12.4ms | Allocations: 1954)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (2.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 12.9ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 55.2ms | Allocations: 7375)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 56.5ms | ActiveRecord: 9.3ms | Allocations: 12047)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:24:17 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms | Allocations: 816)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 20:24:17 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.6ms | Allocations: 1956)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 8.5ms | Allocations: 1954)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 2.7ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 25.7ms | Allocations: 6525)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 29.3ms | ActiveRecord: 2.7ms | Allocations: 10616)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 20:25:38 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AStL0uguZ4nI3khQL7thkxM89/CB2Gubyu3i4HCcgVXs/f5hgn5kayCKB9vHMY+lLUXO6LUs4T6uqDyvg4tMxA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:25:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 4817)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:25:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1328)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 5305)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 20:25:47 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"z2rGKUr0cZNlmOWohHUNybY7hz9OrIAyNKFORCtgXmj8k+LvOsS5D9erD7e8d3SwuZM8B3LRKYw1WYs2XS0S9w==", "email"=>"aaaa@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aaaa@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 345ms (ActiveRecord: 3.4ms | Allocations: 950)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:25:47 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms | Allocations: 818)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 20:25:47 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 10.5ms | Allocations: 2394)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.4ms | Allocations: 1954)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 9.3ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 29.4ms | Allocations: 7374)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 35.2ms | ActiveRecord: 3.0ms | Allocations: 12035)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 20:25:49 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"b+ebDuWB5wvQrzIdq5PrP+jCQYWLuEwILdQUY/qRv5aCMS69j9Hk6Tj7fZZDGQUJ1rt4nb9Mxq1JkcosCYZyBw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 291)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:25:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 3536)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:26:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 4800)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:26:37 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1342)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 5319)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:27:20 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 2448)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 6969)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:27:29 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 15.1ms | Allocations: 1335)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 5862)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 20:27:51 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"4YXpiPHGc/fSMD9My3pgg+PGtnHPLZAxXPNXOI37L94MU1w7m5ZwFTpkcMcj8I613b+PafvZGpQ4tol3fuziTw==", "email"=>"aaaa@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aaaa@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 344ms (ActiveRecord: 4.5ms | Allocations: 945)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:27:51 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms | Allocations: 812)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 20:27:51 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 9.7ms | Allocations: 2395)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 5.0ms | Allocations: 1954)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 5.0ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 7383)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.0ms | ActiveRecord: 3.8ms | Allocations: 12059)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 20:27:54 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4UB+q1xJ3RP316nRtIryhIBCiCwBP0+hmwm5EcDHLRwMlssYNhne8R+D5lpcAByyvjuxNDXLxQT/TGdeM9DgjQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 304)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 20:27:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4250)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:29:41 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 5854)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 20:29:43 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 4530)
+
+
