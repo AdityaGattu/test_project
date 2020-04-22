@@ -25609,3 +25609,2119 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4547)
 
 
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:25:15 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 163ms (Views: 147.9ms | ActiveRecord: 0.0ms | Allocations: 37175)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:25:18 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"Qut5+ukPk+7mIHexThJgKZrA1Fzq5Ar8GkIjrpw+LoSvPcxJg1+QDA50ODqmmI4fpLntRN4QgFl+B/3hbynjFQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 36ms (ActiveRecord: 10.7ms | Allocations: 3393)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:25:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 4554)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:26:43 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms | Allocations: 15992)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:26:45 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"C+aHtqrOG+DEvSj35ZY7aaEw7kc07nF7CvxixzrGQBvmMDIFwJ4YAizpZ3wNHNVfn0nXXwAa+95uubyIydGNig==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 3.5ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:26:45 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4551)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:27:08 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms | Allocations: 16383)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:27:09 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"2tp1fmTA0bBWZRYuOdkzWImu7OtKrSpgJQnjkzOdS7c3DMDNDpDSUr4xWaXRU91ut9fV835ZoMVBTD3cwIqGJg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 2.0ms | Allocations: 926)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:27:09 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4550)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:27:33 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms | Allocations: 15123)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:27:35 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"JAYbYC3A9DB8v9g+FCeX2bEtIpMZo+Ba5zIkOeUXUxTJ0K7TR5D30pTrl7X8rXnvj1Qbiy1Xav+Dd/p2FgCehQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 11ms (ActiveRecord: 1.9ms | Allocations: 924)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:27:35 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:27:59 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms | Allocations: 15920)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:28:02 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"UuNUav6fSyVE3SEGAlb6uzvEJ7P4LDsEVjdcBrj2W46/NeHZlM9Ix6yJbo3q3BSNBb0eq8zYsaEycoJJS+GWHw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 8ms (ActiveRecord: 3.4ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:28:02 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 4542)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:30:56 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 17244)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:31:00 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"eip3+m48MPKM387hVdIxkKz4V4Fxfds3nt0/bQzLfP2X/MJJBGwzEGSLgWq9WN+mkoFumUWJUZL6mOEi/9yxbA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 15ms (ActiveRecord: 1.3ms | Allocations: 915)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:31:00 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4548)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:31:16 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms | Allocations: 16405)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:31:19 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"w66+gI0vwak8R7QHoDE5jpkBmKxzwLTitUEMKQX/LFQueAsz53/CS9QT+4xIu9e4p3ihtEc0PkfRBNJm9ujhxQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 1.4ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:31:19 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:32:02 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms | Allocations: 16862)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:32:05 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"ywV6umaqhPSY5imFiK+yLThzanqfr7mUpVVBV8L34pMm088JDPqHFnCyZg5gJVwbBgpTYqtbMzHBEJ8YMeAvAg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 4ms (ActiveRecord: 0.2ms | Allocations: 923)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:32:05 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4548)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:32:25 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms | Allocations: 15541)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:32:26 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"1YP/yyrvfSfADZQ2Jm4jqnvgmHPbdgp5UGv0kiuvW884VUp4QL9+xShZ273O5M2cRZmha++CgNw0Lird2LiWXg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 17ms (ActiveRecord: 0.7ms | Allocations: 930)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:32:27 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4548)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:32:47 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms | Allocations: 16860)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:32:49 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"czIiAa5snsBnLSSPKg9+E0u84jYfewZIaxjnAnZvc96e5JeyxDydIo95awTChZAldcXbLiuPjO0PXTlNhXi+Tw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 0.3ms | Allocations: 926)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:32:49 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:33:26 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms | Allocations: 16406)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:33:29 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"j4WStm1HQHE4sAjozIQ9cFep7sXfn1o99EwSdso/MfhiUycFBxdDk9DkR2MkDtNGadDX3etr0JiQCcw5OSj8aQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 0.3ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:33:29 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4551)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:37:51 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 73.6ms | ActiveRecord: 0.0ms | Allocations: 17208)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:37:53 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"7GzDsTIjgf4rORgiFtdRIkfR0D+l2CwYGA6qNRC5XAkBunYCWHOCHMNtV6n+Xb8UeajpJ5Espr18S3R6466RmA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 0.2ms | Allocations: 929)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:37:53 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:38:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 16470)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:38:20 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"D06l2TbyfTisgFgoRJ8p2ctathrin8Ip//4jiz8fGkbimBBqXKJ+2kTUF6OsFcfv9SOPAtZrSIybu/3EzAjX1w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (6.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 22ms (ActiveRecord: 6.4ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:38:20 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:39:17 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms | Allocations: 17680)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:39:20 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"fIEHlkl6ougaIdZSbbSPfh1/NP7pbFxcKmN4sQmU3S2RV7IlIyqhCvJ1mdmFPmFIIwYN5t2Y1vlOJqb++oMQvA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 1.8ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:39:20 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:41:16 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.0ms | Allocations: 17224)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:41:18 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"JrPlPDVstjVjeKa9u7lNvKgxMLxW/Z90vkLbGrhkNPzLZVCPXzy114ss6TZTM6OKlkgJpGIJFdHaBwVVS3P5bQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 3.1ms | Allocations: 919)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:41:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:44:58 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1332)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 5911)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:45:00 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"/vXiXiNvjOSRl5fAWFdcBamYS46v51/ncVOX+aote4MTI1ftST+PBnnD2Euw3bIzl+FylpsT1UIVFkm2WTq2Eg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 8ms (ActiveRecord: 1.4ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:45:00 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4556)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:45:06 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"3K5TtGcUJ+MRY9uWU77qgImqP/QYp4tc6U+lV2l9MxjvV3dyFyTvf6NQMYlrvJP5hgKEzCTaIuLot2AlHzB/hw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 0.4ms | Allocations: 935)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:45:06 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:49:10 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms | Allocations: 19049)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:49:12 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"ejAPaSqWYmDbOJ3QWOTXWTtTIq3GnpWKAt4gXA/1/cCX5rraQMZhgjNs0luwbjlvBSobtfJqHy9mm/4T/OIwUQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 0.2ms | Allocations: 930)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:49:12 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 4551)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:49:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 5867)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:49:57 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"swALRSVUGwTl81M/r2x0LuOh6YTInNua8ekJ2NBIu7he1r72TwQY5g2nHLRH5poY3djQnPxoUT+VrNeXI192KQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 13ms (ActiveRecord: 4.5ms | Allocations: 920)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:49:57 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 4558)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:50:00 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 4529)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:50:04 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"+uKCTSLnjt3hYWicOKbPXTZgtwy7Y/IisS6qe627uDgXNDf+SLeNPwk1JxfQLCFrCBmOFI+XeIfVa3Q0Xqx1qQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 23ms (ActiveRecord: 4.0ms | Allocations: 915)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:50:04 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 4552)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:52:20 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 5854)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:52:23 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"FzW/4XMtbAnbHFNve9GDr2fnTuOxlLg61aCa+eYA31364wpSGX1v6zNIHOSTW22ZWZ53+4VgMp+x5US2FRcSzA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 8ms (ActiveRecord: 1.5ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:52:23 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 4553)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:53:03 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 5860)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:53:05 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"Ar4DNutwd4/DApShylR9VyJ4QBtzzS1Vzti+NsfCHWvvaLaFgSB0bStW2yoi3pNhHAF5A0c5p/CqnWB5NNXQ+g==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 1.3ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:53:05 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4556)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:55:06 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.0ms | Allocations: 17698)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:55:08 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"XqYak/qDH5acOx470WVpS/zh2yYgQg7gZ33akIJKkaCzcK8gkNMcdHRvUbA574d9wpjiPhS2hEUDOATfcV1cMQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 0.4ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:55:08 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:55:50 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 5870)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:55:51 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"TnLOV5dxXnLduLDmP4txyPmKZYW2URN4pOi3lWLLyOGjpHvk/SFdkDXs/23XAZ/+x/NcnYKlmd3ArWnakdwFcA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 2.2ms | Allocations: 919)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:55:51 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 4553)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:55:55 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"8SlbDzS34Ma/tlYdJT76uVTRe5YPo65AXjkdojMdm8LC0H/JRIcoWg2FvAIdPIPAW3nArjPeB/5fwdjQRVDXXQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 0.3ms | Allocations: 933)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:55:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:57:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.0ms | Allocations: 16410)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:57:42 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"IRFbrzTxIqFASUgbaUhP2kfM5tCrbHbP12ZMC4Cni2bMx+4cXqEhQ6gdB5CBwqHsebXfyJ+Y/GqzI5JEc7BG9w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 4ms (ActiveRecord: 0.2ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:57:42 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:58:24 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms | Allocations: 16010)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 21:58:27 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"w20Xr/AtyKo1kl7unVc2DLVjTM5I77CB4RSnWElQX5wuu6Icmn3LSN3GEWV13dg6ixp11nwbOiSFUXkXukeSDQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 18ms (ActiveRecord: 4.1ms | Allocations: 915)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 21:58:27 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:20:15 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1332)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 17365)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:20:17 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"Pt4tr/paWrd4TW2IxDxUB4qxuBEhzH3p2+AY86tIy3vTCJgckApZVZAZIgMstroxtMiBCRU490y/pca8WF8G6g==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 7ms (ActiveRecord: 0.7ms | Allocations: 1049)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:20:17 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 4554)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:20:49 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 5855)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:20:52 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"ExYmMcfmejKctID+Qma/onxqM3wej/zIDkmkYUMTWpb+wJOCrbZ50HTgz3Wq7FGUQhMKZCp7dm1qDHousASXBw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 19ms (ActiveRecord: 2.3ms | Allocations: 920)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:20:52 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4557)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:21:27 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms | Allocations: 16026)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:21:29 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"QHh4uwsGWOzX6CiMgwp+DdiuUypQLkX5OfpYZoz1hnytrs0IYVZbDj+8ZwdrgJA75tdqMmTaz1xdv4Ypf+JL7Q==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 1.7ms | Allocations: 919)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:21:30 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:21:42 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms | Allocations: 16845)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:21:45 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"WmwLr1eBoCnYJMGK2GbOHJY9q3UDvunDScMx3J3P4Mu3ur4cPdGjyzBwjgEw7CAqqESSbTdKY2Ythu+TbtgtWg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 21ms (ActiveRecord: 0.8ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:21:45 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:21:59 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms | Allocations: 16786)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:22:03 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"A3P2AUWH7BO7/4Z2oRcxHEHenpGyYSOsf8N0BcxtjVXupUOyL9fv8VOryf1Jnd8qf6eniYaVqQkbhqpKP3pAxA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 1.3ms | Allocations: 913)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:22:03 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:22:20 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 19.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.0ms | Allocations: 16002)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:22:22 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"6Gu75wMr/hDRR363P60/OXG2RbieFKQ2nVZEFwTPHIsFvQ5UaXv98jkTMTzXJ9EPT898oKrgLpP5E5pY99jRGg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 1.1ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:22:22 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:22:39 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms | Allocations: 17682)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:22:41 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"CVqJQ5Xoxrh5HM1draHjZGm7aA0cr9FzFLVeOUd+qmjkjDzw/7jFWpFIgtZFKw1SV8JRFShbW9Zw8IB2tGln+Q==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 14ms (ActiveRecord: 4.7ms | Allocations: 1045)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:22:41 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 4550)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:00 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 15570)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:23:02 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"DBCXlgfPExL6xDCrCIZsW3X6EPl44JWtnLSLzMHEiEjhxiIlbZ8Q8BKQfyDgDIJtS4Mp4UwUHwj48VWDMtNF2Q==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 2.2ms | Allocations: 920)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:02 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4542)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:33 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms | Allocations: 15973)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:23:35 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"up3uaGNC/EriSYyHuviUXr6Puv+yN1fKNJXYibJ5TWpXS1vbCRL/qAodwwxScnpogPaD54bD3W9Q0AbGQW6A+w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 11ms (ActiveRecord: 2.4ms | Allocations: 924)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:35 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:37 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms | Allocations: 4528)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:45 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 4526)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:23:46 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"wYegMqs+T6UMA2R5vGqcp0Q2g0rmthSVInCIHv5jn44sURWBwW5MR+RXK/JU4HKRek+6UtJCnjBGNVZRDXRSHw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 14ms (ActiveRecord: 0.5ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:46 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:51 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 4567)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:23:52 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"R85jxaONgGPPyKF6uOkkBnS9pSQU5y5L+/maFaWl/sKqGNZ2yd2DgSec7vFQY8owSsScPCATpO6fvERaVrIzUw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 0.4ms | Allocations: 914)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:23:52 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:24:45 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 17292)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:24:48 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"GbxOphIJKJQirQ9cg8k4NOqXHmGfYfX8TIglVN/CMUP0avsVeFkrdsr5QNdrQ9YC1O4neauVf1kozfsbLNX80g==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 12ms (ActiveRecord: 2.6ms | Allocations: 915)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:24:48 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:25:12 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms | Allocations: 15989)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:25:14 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"uwVZIqcnQcNmVgLw98z9Zxf1C3qTgN84D2fLhPwVRoxW0+yRzXdCIY4CTXsfRhNRKYwyYqd0VZ1rIhXLDwKLHQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 12ms (ActiveRecord: 1.5ms | Allocations: 921)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:25:14 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:25:36 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 5001)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:25:37 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"6VjA8/J3lgyjawMxRx+LAmCVug9ZOciJjjWKkUF1/xYEjnVAmCeV7ks/TLqvlWU0XuyDF23NQizqcFTesmIyhw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 0.4ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:25:37 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 4548)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:26:35 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 16857)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:26:37 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"wpZn+A/TnSC8NF3TItEBnjtcaJVE6Qk7ne12ns8d1XYvQNJLZYOewlRgEljKW++oBSVRjXAdg575qKjRPAoY5w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 7ms (ActiveRecord: 1.6ms | Allocations: 921)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:26:37 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:26:40 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"FVdUx6Y18pi6L35fDFLDn+wYoeDHeR1opemLDTwp68omrnAB1gU6BAgclEA0ULrm47Aa2PsEtNakEU5/SmSnVQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 14ms (ActiveRecord: 0.6ms | Allocations: 933)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:26:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4547)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:26:54 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms | Allocations: 16859)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:26:55 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"Ne0PZxn98mo9xZQlM+yFf++dlr8cLFPZ/KtabLyiUXbYO7rUc63xiNWR267bZmtJ0eSvpyjY2XyY7oQjT7Wc5w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 1.6ms | Allocations: 914)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:26:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4551)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:27:21 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1333)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 5904)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:27:23 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"fevcY0wTqBjMHaK8nfQfFBWNgpjX0yRnyDs18IjbucmQPWnQJkOr+iRJ7Td1fvEiK/S7gOMnrsKsfuu/e8x0WA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 1.8ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:27:23 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4550)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:28:37 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 133ms (Views: 128.8ms | ActiveRecord: 0.0ms | Allocations: 27040)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:28:40 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"8nf689BVte23nY6oWE4BDbrAE8uPv6v/pGKaRPYQOUQfoU9AugW2D1/JwSOwxO87hLkq07tLIVrAJ0QLBQf01Q==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 35ms (ActiveRecord: 10.1ms | Allocations: 3395)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:28:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4561)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:29:15 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1332)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 5873)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:29:16 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"e3C/G9+XlRYNBuCnNS375hNFeobzfFY1YtTmkcoGAhOWpgqotceW9OVSryzdpxXQLTxDnseI3JAGkTjeORHPgg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (13.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 24ms (ActiveRecord: 13.8ms | Allocations: 928)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:29:17 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4558)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:29:30 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 5857)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:29:32 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"gPXv66U3xR/Pf9zedZYIClLRfcMV5RytZlRXCDazhLptI1pYz2fG/Scrk1WdHOY8bKhE2yERlggCEYlHxaRJKw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 2.7ms | Allocations: 914)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:29:32 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4553)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:29:50 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms | Allocations: 17804)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:29:54 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"NUUr3XgrMA+uVsYk2UutTr8O0+uye/kZrbsx9oKavP/Yk55uEnsz7UYCia8xwUN4gXfq84aPc7zJ/u+5cY1xbg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 7ms (ActiveRecord: 0.5ms | Allocations: 922)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:29:54 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 4547)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:32:25 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 5872)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:32:28 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"TdzrGXZbMY4Kt+SCjmHJQSoVktQITeBxwFeCpVfCazygCl6qHAsybOLjqwlm6yd3FGyrzDy5atSkElzqpNWmrQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 26ms (ActiveRecord: 1.0ms | Allocations: 924)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:32:28 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 4559)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:32:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 5872)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:32:41 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"XzIhyAivX0QzbFFhBqbvfOSTnEUrhJQ7+Y9AY2jjZvKy5JR7Yv9cpts4HuruLAFK2uqlXR9wHp6dyp4sm/SrYw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 12ms (ActiveRecord: 2.7ms | Allocations: 912)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:32:41 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4551)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:33:30 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 5862)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:33:36 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"b7QLWof5HiR0DQB+o7WBFDVogs/b1XKzaadrXe0mWBOCYr7p7akdxpxZT/VLP28iCxG71+8h+BYN4rUSHjGVgg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 13ms (ActiveRecord: 0.7ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:33:36 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 4559)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:34:36 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms | Allocations: 16775)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:34:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 4534)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:34:42 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"gkpiOe5DTB1QUMF5gfwXTisVXWDoAh5kI2DjIobBO5ZvnNeKhBNP/7gEjvJpdvl4FWxkeNz2lMFHJT1tddb2Bw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 3.9ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:34:42 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:34:48 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 4566)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:34:50 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"y6fl2EnLQOoqDWYQhyZTB00ezidGpNeFm+bxFF5O1jomcVBrI5tDCMJZKZtvrL0xc2f3P3JQXSD/oy9brVkbqw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 7ms (ActiveRecord: 0.8ms | Allocations: 923)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:34:50 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:35:01 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms | Allocations: 16353)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:35:03 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"gk6JeG1G07wmYnEr2xa00iNcmx/UPPFRxRF/nBqXsmpvmDzLBxbQXs42PqAznFrkHSWiB+DIe/ShVKHT6YB/+w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 20ms (ActiveRecord: 0.8ms | Allocations: 914)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:35:03 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4548)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:35:16 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 4525)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:35:18 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"QNMVAbrtJofdl3+lFLEHrsfLZHd6KK4lFx49p5JsmD2tBaCy0L0lZTXDMC78O+mY+bJdb07cJIBzW+PoYXtVrA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 8ms (ActiveRecord: 2.2ms | Allocations: 915)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:35:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:35:46 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 4571)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:37:16 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms | Allocations: 17282)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:37:18 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"21GI3bovDK/5MhYjFAp/Bm+g0MNhylMCAaG3yhH+ofE2hz1u0H8PTRFmWaj8gJEwUdnp21U+2adl5GmF4ulsYA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 1.4ms | Allocations: 929)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:37:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 4541)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:37:26 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"UcP/PihK6SsprhK+aJ67APjQQMMgJpnagzL88NoTNwhiOtv4WHoht5ud+KFQnMJ593j7+xxbMGSCyjmCrF57lw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 14ms (ActiveRecord: 6.0ms | Allocations: 935)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:37:27 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4555)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:37:30 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 4526)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:37:32 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"TA73C8IzHjBInFPLCw1sZCA90q60T3z7HOGWYhvUpfih2EK4qGMd0qDIHEDjh4JSHkTrtoC79l54pEgt6MNoaQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 2.0ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:37:32 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:38:08 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms | Allocations: 16824)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:38:10 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"mxa6y7LEQUs0DUKuiPCp456SVwhLPXXOwciTbyFfgtp2wA942JRCqdxZDSVgekfVoOtuEH/J/2uljU0g0khPSw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 11ms (ActiveRecord: 1.6ms | Allocations: 919)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:38:10 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:38:25 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 16700)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:38:28 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"kmeO6SI1pJTrWFKYPs7lC3TSS77hqiH5FSsImJBTqo5/sTtaSGWndgMMHRPWRAs9SqtyptVeq1xxbtbXY0RnHw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 1.0ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:38:28 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:39:53 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.0ms | Allocations: 17714)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:39:57 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"Vbb0CaF+23HeYT06JSNHbl9Hq77D9Ea5iLAYj9ZksHy4YEG6yy7YkzY1crHNqalYYT6SpvcAzBzs9cbAJXN97Q==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 1.7ms | Allocations: 926)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:39:57 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:23 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 16810)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:40:25 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"K3X0W8TOj1XYadjkAtXJloELhwn9yYKpJZoZzyH+WjLGo0Horp6MtzA9l2/qXyegv3K+Eck9CAxB38eA0umXow==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 0.6ms | Allocations: 914)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:25 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:42 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms | Allocations: 17224)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:40:44 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"vplSZFS4A3+jhZapB6GGbdu7uKhE9OIuBVr+od9U0s5TT+fXPugAnUvR2SLvK2hb5cKBsHAAaIthHyDuLEMfXw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 2.0ms | Allocations: 918)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:44 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 4546)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:40:47 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"GP8tuTiNgNtVHN/hiLNAVCxo34kk+gAj4rC2HcOrpzorBgl/SL1IR+cvNf6wsTktI8BksRiHqZ3jSHNvtebrpQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 13ms (ActiveRecord: 3.0ms | Allocations: 937)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:47 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms | Allocations: 17610)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:40:58 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 4528)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:41:06 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"vEE2HdECT3PpLOgjqkawARC3Sx9dP4CvBRXKurwIICFRl4Ouu1JMkQF4p6hCzF43Ls5yB2nLCgphUBT1Tx/tsA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 2.7ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:41:06 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:41:16 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 4570)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:41:18 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"wVX8uCPN1wxfTpAUhZDoCexzYav+oFsqm2w408pZQi8sg0kLSZ3U7rca359tGgY/0gpYs8pU0Y//KeacOU6Pvg==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 0.3ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:41:18 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4542)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:41:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 5875)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:41:59 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"3024q6ztxFAJmJhZsACve83fwiCM4TX6kioHcoIZu0oymw0Yxr3HsuHM19JYikFN86b7OLgVv1/2b9k9cQ522w==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 5ms (ActiveRecord: 0.3ms | Allocations: 926)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:41:59 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4550)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:42:22 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 5868)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:42:25 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"JE+2RZBCpNz81XAyMVQ2UuCx9gRXFUXZmxs/rWOI8oDJmQP2+hKnPhSBP7nZ3thk3sjPHGPhz3z/XuHikJ8/EQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 11ms (ActiveRecord: 3.5ms | Allocations: 917)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:42:25 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4554)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:43:21 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms | Allocations: 15615)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:43:23 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"j+j2B/cmrv/wVqR6N7SxFjEzoymbTEFojL3jvg/IZv1iPkO0nXatHRgC6/HfPl8gD0qaMa+4y83o+D3x/N+rbA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 9ms (ActiveRecord: 2.1ms | Allocations: 916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:43:23 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4543)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:43:57 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 65.6ms | ActiveRecord: 0.0ms | Allocations: 16329)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:43:59 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"7+4HVuS/EKNipOqsDJxtZFrc7uBa68p//8SiWX/i10kCOLLlju8TQYrwpSfkFoNSZKXX+G4fQNqbgXwWjPUa2A==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 1.4ms | Allocations: 914)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:43:59 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4549)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:44:40 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms | Allocations: 15976)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:44:42 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"2yAyNlISA+xU2iOe3hG4FiYijJmIojq4JbSneRqUpdQ29oeFOEIADryObBU2m1YgGFu1gbxWsB1B8Xk26YNoRQ==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 10ms (ActiveRecord: 3.1ms | Allocations: 922)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:44:42 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4550)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:45:03 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 103ms (Views: 99.9ms | ActiveRecord: 0.0ms | Allocations: 17358)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:45:05 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"FNmrBvJM2lgHtkG6TqhbtfsnldoidYv3hWi+YLPYUJ75Dx61mBzZuu/iDjGmIrWDxV6swhaBAVLhLWAvQM+dDw==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 13ms (ActiveRecord: 3.1ms | Allocations: 913)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:45:05 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 4547)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:45:23 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 73.0ms | ActiveRecord: 0.0ms | Allocations: 18108)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:45:28 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"WGFAfpn/4H2BQ7uHmI1w5L7cRwQMY31/7tIItnQb/Mm1t/XN86/jn2kX9AxwB57SgKV+HDiX99qKl9b5hwwxWA==", "email"=>"", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/signin
+Completed 200 OK in 6ms (ActiveRecord: 1.1ms | Allocations: 926)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:45:28 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4545)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:47:16 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.0ms | Allocations: 17743)
+
+
+Started POST "/signin" for 127.0.0.1 at 2020-04-22 22:47:20 +0530
+Processing by SessionsController#create as JS
+  Parameters: {"authenticity_token"=>"WqK/8tR/+Ypv/2/DavB0mdQ2CJYdwTwqlOZA/rGRPE+3dApBvi/6aIerIEiCepqv6k8xjik1to/wo56xQobx3g==", "email"=>"aaaa@gmail.com", "password_digest"=>"[FILTERED]", "commit"=>"Sign in!"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aaaa@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 341ms (ActiveRecord: 5.4ms | Allocations: 6282)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:47:20 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms | Allocations: 977)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 22:47:20 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.0ms | Allocations: 2514)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 5.2ms | Allocations: 1955)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 8.2ms | Allocations: 1955)
+  Rendered todos/index.html.erb within layouts/application (Duration: 30.2ms | Allocations: 8406)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 33.7ms | ActiveRecord: 4.1ms | Allocations: 15415)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 22:47:25 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 5.5ms | Allocations: 1957)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (5.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 10.4ms | Allocations: 1954)
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 5], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 5]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 7.3ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 25.6ms | Allocations: 6530)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 26.0ms | ActiveRecord: 10.3ms | Allocations: 10606)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 22:47:30 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1fuPID2Px+PvhbVTiEalBLKQPAwB4kPG5gKX0uu1uLo4LTqTV9/EAQfR+thgzEsyjOkFFDUWyWOCR0mdGKJ1Kw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 295)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:47:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 226)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 4266)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 22:47:34 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1746)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 5767)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-04-22 22:47:45 +0530
+Processing by UsersController#create as JS
+  Parameters: {"authenticity_token"=>"IateCe6pDlBfNsU/MMy8c4OesEjqghyrQfKCC+SIi4HZ4rncvIlycwgjRlEuUpIuOLgECBIf87MRmgRic3UB+w==", "first_name"=>"asf", "email"=>"dsf@fds", "password_digest"=>"[FILTERED]", "commit"=>"Sign Up!"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "asf"], ["email", "dsf@fds"], ["password_digest", "$2a$12$foPsrRGKAjGXg4PH/Cgm0e8Z6A5NNZnJfNsRc.JNvCTXDUi7LZooW"], ["created_at", "2020-04-22 17:17:45.747745"], ["updated_at", "2020-04-22 17:17:45.747745"]]
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[35m (47.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 400ms (ActiveRecord: 47.9ms | Allocations: 2953)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:47:45 +0530
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms | Allocations: 830)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 22:47:45 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 10], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.5ms | Allocations: 1957)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 10], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 5.2ms | Allocations: 1954)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 10], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 6.4ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 6529)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 23.1ms | ActiveRecord: 3.3ms | Allocations: 10645)
+
+
+Started GET "/todos" for 127.0.0.1 at 2020-04-22 22:49:51 +0530
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `current_user'
+  Rendering todos/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed)) AND "todos"."completed" = $2[0m  [["user_id", 10], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date < '2020-04-22' and (not completed))[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 22.4ms | Allocations: 1956)
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 10], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date = '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 11.9ms | Allocations: 1954)
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22') AND "todos"."completed" = $2[0m  [["user_id", 10], ["completed", true]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:4
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = $1 AND (due_date > '2020-04-22')[0m  [["user_id", 10]]
+  ↳ app/views/todos/_todo-section.html.erb:7
+  Rendered todos/_todo-section.html.erb (Duration: 10.4ms | Allocations: 1954)
+  Rendered todos/index.html.erb within layouts/application (Duration: 47.1ms | Allocations: 6526)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 45.0ms | ActiveRecord: 18.0ms | Allocations: 10604)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-04-22 22:49:55 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wceKeV6bPW2rG3chK2QnLDH5USOq6AMRl46cNrQPaOcsET/KNMs+j0NPOKrD7skaD4BoO54cibTzy0J5Rxildg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 301)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:49:55 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 3541)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:50:24 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 3527)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:54:20 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 264)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms | Allocations: 17141)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:54:27 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.0ms | Allocations: 5309)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:54:44 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms | Allocations: 4532)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:55:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 263)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms | Allocations: 4851)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-22 22:55:55 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 296)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 4876)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-04-22 22:56:09 +0530
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1763)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 5744)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-04-22 22:56:13 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 5301)
+
+

@@ -5,14 +5,7 @@ body{
 
 }
 
-.layer {
-  background-color: rgba(61, 34, 133, 0.541);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+
 
 
 .signup-form{
@@ -27,9 +20,29 @@ body{
   overflow: hidden;
 }
 
+
+
+
+
+
 @font-face {
   font-family: myFirstFont;
   src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
+}
+
+.signup-form1{
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+  background: url(fav-col2.jpg);
+  color: #fff;
+  margin-left: 80%;
+  margin-right: 10%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
 }
 
 .signup-form h1{
